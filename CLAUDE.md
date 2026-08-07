@@ -102,8 +102,14 @@ Reference"):
 - End every page with a clear call to action.
 
 ## Placeholders (flag to user until real values are supplied)
-- Phone: (847) 242-8940
-- Domain: burbankhousepainters.com
+- Phone: (847) 242-8940, still a placeholder, matches other rented sites
+  for now
+- Domain: burbankhousepainters.com, confirmed real. Purchased and
+  connected to Cloudflare Workers (custom domain attached to the
+  burbank-ca-house-painters Worker, production environment). Canonical
+  tags, Open Graph URLs, sitemap.xml, and robots.txt already use this
+  domain since it was used as the working domain from the start, so no
+  code changes were needed.
 - Formspree form action: https://formspree.io/f/xjybkpje (live)
-- Photography: dashed-block placeholders + image-prompts.md until the
-  user generates and returns real images
+- Photography: complete. Real photos generated, resized, optimized, and
+  wired in across all pages (see image-prompts.md, status: complete)
