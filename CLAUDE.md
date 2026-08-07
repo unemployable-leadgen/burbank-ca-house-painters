@@ -104,6 +104,6 @@ Reference"):
 ## Placeholders (flag to user until real values are supplied)
 - Phone: (847) 242-8940
 - Domain: burbankhousepainters.com
-- Formspree form action: YOUR_FORM_ID (real endpoint pending)
+- Formspree form action: https://formspree.io/f/xjybkpje (live)
 - Photography: dashed-block placeholders + image-prompts.md until the
   user generates and returns real images
