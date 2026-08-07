@@ -1,4 +1,4 @@
-# CLAUDE.md — House Painting (lead-gen site)
+# CLAUDE.md, House Painting (lead-gen site)
 
 ## What this project is
 A local lead-generation website for **house painters in Burbank, California**.
@@ -15,21 +15,21 @@ visitors into calls.
 - Deployed on Cloudflare (Workers static assets) later; keep output as
   plain static files.
 
-## The rules live in ./shared-rules (git submodule — DO NOT edit here)
+## The rules live in ./shared-rules (git submodule, DO NOT edit here)
 All writing, SEO, and structure rules are in the `shared-rules/`
 submodule. Read them before writing anything. They are the source of
 truth:
-- `shared-rules/project-instructions.md` — the master rules (limits,
+- `shared-rules/project-instructions.md`, the master rules (limits,
   style, banned phrases, banned punctuation, SEO). Numbers live here.
-- `shared-rules/content-writing-rules.md` — HOW to write pages.
-- `shared-rules/homepage-structure.md` — exact homepage layout.
-- `shared-rules/checklist-pre-output.md` — run this before delivering
+- `shared-rules/content-writing-rules.md`, HOW to write pages.
+- `shared-rules/homepage-structure.md`, exact homepage layout.
+- `shared-rules/checklist-pre-output.md`, run this before delivering
   any page.
-- `shared-rules/google-trends-rules.md` — service-list + keyword
+- `shared-rules/google-trends-rules.md`, service-list + keyword
   validation.
-- `shared-rules/niche-city-criteria.md` — niche/city selection
+- `shared-rules/niche-city-criteria.md`, niche/city selection
   criteria.
-- `shared-rules/new-site-setup.md` — repo/submodule/CLAUDE.md setup
+- `shared-rules/new-site-setup.md`, repo/submodule/CLAUDE.md setup
   for a brand-new site.
 
 If a rule and this file ever disagree on a NUMBER,
@@ -51,7 +51,7 @@ file.
   service page structure in content-writing-rules.md.
 
 ## Finalized service list (Google Trends-validated, see planning research)
-- **Homepage** — house painting (interior + exterior overview).
+- **Homepage**, house painting (interior + exterior overview).
   Primary: `house painters Burbank CA`.
 - **Interior Painting** page. Primary: `interior painting Burbank CA`.
   Mentions (not standalone pages): cabinet painting/refinishing,
@@ -75,7 +75,7 @@ Originality" and shared-rules/homepage-structure.md "Visual
 Reference"):
 - Burbank, CA landscaping (same city, different niche)
 - Burbank, CA window cleaning (same city, different niche)
-- Tracy, CA house painters (same niche, different city) — the most
+- Tracy, CA house painters (same niche, different city), the most
   relevant structural reference for this build since it's the same
   trade. Use it for CSS/HTML structure only. Its palette, logo, and
   every sentence of written content must NOT be reused. If this
@@ -93,7 +93,7 @@ Reference"):
 5. Run checklist-pre-output.md against every page before considering it
    done.
 
-## Hard guardrails (from project-instructions.md — never violate)
+## Hard guardrails (from project-instructions.md, never violate)
 - No em dashes anywhere. Use a period or comma.
 - No banned phrases (see project-instructions.md).
 - All content original, never copy competitor text, and never copy a
