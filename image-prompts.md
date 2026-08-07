@@ -1,11 +1,23 @@
-# Image Prompts, status: pending (all placeholders are CSS blocks, no photos yet)
+# Image Prompts, status: complete
 
-Every hero, thumbnail, and inline body photo on this site is currently a
-dashed CSS placeholder (`.inline-photo` / `.inline-photo-float`, or the
-hero's own patterned background) with a short on-page caption naming the
-intended shot. None of the files below exist yet. Generate each with your
-own AI image tool, then send the files back for resizing, optimizing, and
-wiring into place.
+All 15 photos generated, reviewed, renamed, resized, optimized, and wired
+into the site (2026-08-07). This file is now a reference record of what
+each image is and its alt text, not an active to-do list.
+
+All 11 AI-generated source images matched their intended slot well: real
+photography (not illustration/render), natural daylight, no readable text
+or logos, no faces clear enough to need a release, and a Southern
+California residential setting (stucco, palm trees, tile roofs, dry
+hillsides) that fits Burbank specifically. None needed regenerating.
+
+## Processing pipeline used
+Source PNGs (1448-1672px on the long edge, straight out of the AI
+generator) were resized and converted with macOS `sips` to JPEG quality
+80, matching the target dimensions listed per image below. OG images were
+derived from each page's hero: resized to 1200 wide, then center-cropped
+to exactly 630 tall. Total footprint dropped from roughly 26MB of PNGs to
+about 3.7MB of JPGs. Raw PNGs were removed from `images/` after
+conversion; only the final optimized JPGs are in the repo.
 
 Style guardrails every prompt below was written against: realistic
 photography (not illustration or 3D render), natural daylight, a generic
@@ -14,13 +26,6 @@ Southern California residential setting (craftsman bungalows, mid-century
 stucco and wood-sided homes, dry hillside backdrop where visible), no
 readable text or logos anywhere in frame, and no faces close enough or
 clear enough to need a model release.
-
-Suggested pipeline once you have source images: convert with `sips` (or
-equivalent) to JPEG quality ~80, matching the target dimensions listed
-per image, then drop the finished files into `images/` at the exact paths
-below and swap the corresponding placeholder `<div>`/caption for a real
-`<img>` tag (the CSS already supports both, see `img.inline-photo` and
-`img.inline-photo-float` in `css/style.css`).
 
 ---
 
