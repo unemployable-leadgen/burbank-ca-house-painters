@@ -50,6 +50,22 @@ file.
 - **Pages:** homepage + one page per validated service. Follow the
   service page structure in content-writing-rules.md.
 
+## Finalized service list (Google Trends-validated, see planning research)
+- **Homepage** — house painting (interior + exterior overview).
+  Primary: `house painters Burbank CA`.
+- **Interior Painting** page. Primary: `interior painting Burbank CA`.
+  Mentions (not standalone pages): cabinet painting/refinishing,
+  drywall repair, wallpaper removal.
+- **Exterior Painting** page. Primary: `exterior painting Burbank CA`.
+  Mentions (not standalone pages): stucco repair, wood rot repair,
+  pressure washing (adjacent trade, bundled as exterior prep only,
+  decided against a standalone page to keep site focus on painting).
+- **Deck & Fence Staining** page. Primary: `deck and fence staining
+  Burbank CA`.
+- Excluded: roofing/roof coatings (blacklisted niche), commercial/HOA/
+  apartment painting (different customer segment, out of scope for
+  this residential lead-gen site).
+
 ## Sibling repos (reference structure only, never copy content)
 This project has multiple sites built from the same shared-rules
 system. When any of these are cloned or consulted for CSS/HTML
