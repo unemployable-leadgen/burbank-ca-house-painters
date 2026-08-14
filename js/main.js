@@ -35,14 +35,14 @@ document.addEventListener("DOMContentLoaded", function () {
             }
           } else {
             if (status) {
-              status.textContent = "Something went wrong. Please call us instead at (847) 242-8940.";
+              status.textContent = "Something went wrong. Please call us instead at (857) 371-3693.";
               status.className = "form-status show err";
             }
           }
         })
         .catch(function () {
           if (status) {
-            status.textContent = "Something went wrong. Please call us instead at (847) 242-8940.";
+            status.textContent = "Something went wrong. Please call us instead at (857) 371-3693.";
             status.className = "form-status show err";
           }
         });

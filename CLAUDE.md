@@ -102,7 +102,7 @@ Reference"):
 - End every page with a clear call to action.
 
 ## Placeholders (flag to user until real values are supplied)
-- Phone: (847) 242-8940, still a placeholder, matches other rented sites
+- Phone: (857) 371-3693, still a placeholder, matches other rented sites
   for now
 - Domain: burbankhousepainters.com, confirmed real. Purchased and
   connected to Cloudflare Workers (custom domain attached to the
