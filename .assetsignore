@@ -1,0 +1,12 @@
+.claude
+shared-rules
+.git
+.wrangler
+.gitignore
+.gitmodules
+.assetsignore
+wrangler.jsonc
+CLAUDE.md
+image-prompts.md
+img/originals
+.DS_Store
