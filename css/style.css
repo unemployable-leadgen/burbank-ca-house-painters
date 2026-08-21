@@ -512,3 +512,10 @@ img.inline-photo, img.inline-photo-float {
   .hero { min-height: 500px; }
   .hero-inner h1 { font-size: 1.8rem; }
 }
+
+.logo img {
+  background: var(--color-bg);
+  border-radius: 8px;
+  padding: 4px;
+  flex-shrink: 0;
+}
