@@ -8,5 +8,5 @@ shared-rules
 wrangler.jsonc
 CLAUDE.md
 image-prompts.md
-img/originals
+originals
 .DS_Store
