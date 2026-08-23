@@ -1,0 +1,21 @@
+{
+  "name": "burbank-ca-house-painters",
+  "compatibility_date": "2026-08-21",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "main": "worker.js",
+  "routes": [
+    {
+      "pattern": "burbankhousepainters.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.burbankhousepainters.com",
+      "custom_domain": true
+    }
+  ]
+}
