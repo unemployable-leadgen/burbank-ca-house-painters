@@ -15,10 +15,11 @@ visitors into calls.
 - Deployed on Cloudflare (Workers static assets) later; keep output as
   plain static files.
 
-## The rules live in ./shared-rules (git submodule, DO NOT edit here)
+## The rules live in ./shared-rules (symlink to the canonical clone, DO NOT edit here)
 All writing, SEO, and structure rules are in the `shared-rules/`
-submodule. Read them before writing anything. They are the source of
-truth:
+folder (a symlink to `../unemployable-leadgen-shared-rules`, shared
+across every site in this project). Read them before writing anything.
+They are the source of truth:
 - `shared-rules/project-instructions.md`, the master rules (limits,
   style, banned phrases, banned punctuation, SEO). Numbers live here.
 - `shared-rules/content-writing-rules.md`, HOW to write pages.
@@ -29,8 +30,10 @@ truth:
   validation.
 - `shared-rules/niche-city-criteria.md`, niche/city selection
   criteria.
-- `shared-rules/new-site-setup.md`, repo/submodule/CLAUDE.md setup
+- `shared-rules/new-site-setup.md`, repo/symlink/CLAUDE.md setup
   for a brand-new site.
+- `shared-rules/form-backend-setup.md`, how to wire the quote form to
+  the shared form-handler Worker and register a site in its config.
 
 If a rule and this file ever disagree on a NUMBER,
 `project-instructions.md` wins. Do not restate the numbers in this
@@ -110,6 +113,10 @@ Reference"):
   tags, Open Graph URLs, sitemap.xml, and robots.txt already use this
   domain since it was used as the working domain from the start, so no
   code changes were needed.
-- Formspree form action: https://formspree.io/f/xjybkpje (live)
+- Form backend: wired to the shared form-handler Worker
+  (https://unemployable-leadgen-form-handler.davideforestali.workers.dev/submit),
+  not Formspree. Site is registered in that Worker's `src/config.ts`
+  with siteName, notifyEmail, and fromAddress. See
+  shared-rules/form-backend-setup.md.
 - Photography: complete. Real photos generated, resized, optimized, and
   wired in across all pages (see image-prompts.md, status: complete)

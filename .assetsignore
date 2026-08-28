@@ -3,7 +3,6 @@ shared-rules
 .git
 .wrangler
 .gitignore
-.gitmodules
 .assetsignore
 wrangler.jsonc
 CLAUDE.md
