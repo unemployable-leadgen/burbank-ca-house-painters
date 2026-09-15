@@ -230,7 +230,7 @@ p { margin: 0 0 1rem; }
   z-index: 1;
   background: linear-gradient(100deg, rgba(22,30,41,.92) 0%, rgba(22,30,41,.78) 32%, rgba(22,30,41,.32) 62%, rgba(22,30,41,.08) 88%);
 }
-.hero-inner { position: relative; z-index: 2; max-width: 620px; padding: 3rem 0; }
+.hero-inner { position: relative; z-index: 2; max-width: 620px; padding-top: 3rem; padding-bottom: 3rem; }
 .hero-inner h1 {
   color: #fff;
   font-size: 2.7rem;
