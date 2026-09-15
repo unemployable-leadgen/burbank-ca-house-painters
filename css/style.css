@@ -267,7 +267,8 @@ p { margin: 0 0 1rem; }
   grid-template-columns: 1.6fr 1fr;
   gap: 2.75rem;
   align-items: start;
-  padding: 3.2rem 0;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
 }
 .intro-col h2 { font-size: 1.7rem; }
 .form-col { position: sticky; top: 90px; }
@@ -494,6 +495,8 @@ img.inline-photo, img.inline-photo-float {
 @media (max-width: 700px) {
   .main-nav { display: none; }
   .nav-toggle { display: block; }
+  .logo { font-size: .92rem; gap: .5rem; line-height: 1.2; }
+  .logo img { width: 34px; height: 34px; }
   .site-header.nav-open .main-nav {
     display: flex;
     flex-direction: column;
