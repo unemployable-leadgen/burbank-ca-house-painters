@@ -458,19 +458,6 @@ img.inline-photo, img.inline-photo-float {
 .footer-grid li { margin-bottom: .5rem; }
 .footer-grid a { color: #ced3d9; text-decoration: none; }
 .footer-grid a:hover { color: var(--color-accent); }
-.map-embed {
-  margin-top: .8rem;
-  background: repeating-linear-gradient(45deg, #29333f, #29333f 12px, #232c37 12px, #232c37 24px);
-  border-radius: 8px;
-  aspect-ratio: 16/10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #98a0a9;
-  font-size: .78rem;
-  text-align: center;
-  padding: 1rem;
-}
 .footer-bottom {
   padding-top: 1.4rem;
   text-align: center;
