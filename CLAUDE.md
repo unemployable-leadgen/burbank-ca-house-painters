@@ -48,14 +48,14 @@ file.
   housing stock, stucco and wood-sided homes, dry hot summers and mild
   winters that drive exterior repaint cycles and sun/UV fading, plus a
   large rental/turnover market feeding interior repaint demand).
-- **Primary keyword pattern:** "house painters Burbank CA" (primary
+- **Primary keyword pattern:** "house painting Burbank CA" (primary
   first in title tag; H1 slightly different).
 - **Pages:** homepage + one page per validated service. Follow the
   service page structure in content-writing-rules.md.
 
 ## Finalized service list (Google Trends-validated, see planning research)
 - **Homepage**, house painting (interior + exterior overview).
-  Primary: `house painters Burbank CA`.
+  Primary: `house painting Burbank CA`.
 - **Interior Painting** page. Primary: `interior painting Burbank CA`.
   Mentions (not standalone pages): cabinet painting/refinishing,
   drywall repair, wallpaper removal.
