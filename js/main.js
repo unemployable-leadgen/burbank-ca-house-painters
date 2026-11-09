@@ -1,4 +1,4 @@
-// Burbank Pro Painters Co.: mobile nav toggle + quote form submission
+// Burbank House Painters Co.: mobile nav toggle + quote form submission
 
 document.addEventListener("DOMContentLoaded", function () {
   var toggle = document.querySelector(".nav-toggle");
