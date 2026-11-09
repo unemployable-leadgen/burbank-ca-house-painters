@@ -74,8 +74,12 @@ file.
   Sections (not standalone pages): stucco repair (strengthened, best
   bare volume of the adjacent candidates), wood rot repair, pressure
   washing (adjacent trade, exterior prep only, no standalone page).
-- **Deck & Fence Staining** page. Primary: `deck and fence staining
-  Burbank CA`.
+- **Deck & Fence Staining** page. Primary: `deck staining Burbank CA`
+  (changed from "deck and fence staining" after a Nov 2026 Trends
+  comparison: deck staining ~8, fence staining ~3, deck and fence
+  staining ~1.4, deck restoration ~3, scale deck stain = 100). Use
+  "fence staining" as the secondary phrase; the H1 keeps the
+  "Deck & Fence Staining" wording.
 - Excluded: roofing/roof coatings (blacklisted niche), commercial/HOA/
   apartment painting (different customer segment, out of scope for
   this residential lead-gen site).
