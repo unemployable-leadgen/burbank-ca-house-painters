@@ -688,3 +688,11 @@ img.inline-photo { max-width: 560px; }
   .finish-table th, .finish-table td, .repaint-table th, .repaint-table td { padding-right: .7rem; }
   .age-table { min-width: 560px; }
 }
+
+.figure-wide { margin: 1.6rem 0 .4rem; max-width: 800px; }
+.figure-wide .how-photo { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.crack-table, .surface-table { min-width: 640px; }
+@media (max-width: 700px) {
+  .crack-table, .surface-table { min-width: 0; font-size: .9rem; }
+  .crack-table th, .crack-table td, .surface-table th, .surface-table td { padding-right: .7rem; }
+}
