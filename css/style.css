@@ -679,3 +679,12 @@ img.inline-photo { max-width: 560px; }
   .year-table th, .year-table td { padding-right: .6rem; }
   .year-table th.num, .year-table td.num { padding-right: .9rem; }
 }
+
+.source-note + h3 { margin-top: 1.8rem; }
+.repairs-body .note p + p { margin-top: .7rem; }
+
+@media (max-width: 700px) {
+  .finish-table, .repaint-table { min-width: 0; font-size: .92rem; }
+  .finish-table th, .finish-table td, .repaint-table th, .repaint-table td { padding-right: .7rem; }
+  .age-table { min-width: 560px; }
+}
