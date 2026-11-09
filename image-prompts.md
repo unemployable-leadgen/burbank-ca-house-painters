@@ -135,3 +135,28 @@ clear enough to need a model release.
   pending GMB approval." Swap it for a real Google My Business map
   embed once the GMB listing is approved. This is not a photo, so it
   is not one of the AI-generation prompts above.
+
+---
+
+## Cabinet Painting page (`services/cabinet-painting.html`), PENDING real photos
+
+The page currently uses stand-in images from the Interior page. Generate
+these two photos, convert to WebP, and swap the `src` (and alt text) in
+`services/cabinet-painting.html` and the card thumbnail in `index.html`.
+Same style guardrails as above (realistic photo, natural daylight, SoCal
+residential, no text/logos, no clear faces).
+
+- `images/cabinet-painting-burbank-ca-hero.webp` (1600x900, 16:9), hero.
+  Prompt: "Wide photo of a bright mid-century kitchen in a Southern
+  California home with freshly painted off-white shaker cabinets, a few
+  cabinet doors removed and leaning on a drop cloth, natural window
+  daylight, no people, no readable text." Alt: "Freshly painted
+  kitchen cabinets in a Burbank CA home"
+- `images/cabinet-painting-burbank-ca-detail.webp` (600x800, 3:4), body
+  photo. Prompt: "Close-up of a painter's hand in a glove using a fine
+  brush to finish the recessed panel of a white cabinet door laid on
+  sawhorses, soft daylight, shallow depth of field, no face." Alt:
+  "Painter brushing a cabinet door during cabinet painting in Burbank CA"
+- `images/cabinet-painting-burbank-ca-thumbnail.webp` (800x600, 4:3),
+  homepage card (currently a crop of the interior trim-detail photo).
+  Can be a crop of the hero.
