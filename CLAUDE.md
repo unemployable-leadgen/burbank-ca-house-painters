@@ -57,12 +57,18 @@ file.
 - **Homepage**, house painting (interior + exterior overview).
   Primary: `house painting Burbank CA`.
 - **Interior Painting** page. Primary: `interior painting Burbank CA`.
-  Mentions (not standalone pages): cabinet painting/refinishing,
-  drywall repair, wallpaper removal.
-- **Exterior Painting** page. Primary: `exterior painting Burbank CA`.
-  Mentions (not standalone pages): stucco repair, wood rot repair,
-  pressure washing (adjacent trade, bundled as exterior prep only,
-  decided against a standalone page to keep site focus on painting).
+  Sections (not standalone pages): popcorn ceiling removal (adjacent
+  trade, asbestos-testing caveat, kept as a section), drywall repair
+  (prep), ceiling painting, wallpaper removal.
+- **Cabinet Painting & Refinishing** page (added in the Nov 2026
+  keyword review). Primary: `cabinet painting Burbank CA`, with
+  "cabinet refinishing" as a secondary phrase. Use the bare term, not
+  "service" (the modifier scores about zero in Trends).
+- **Exterior Painting** page. Primary: `exterior painting Burbank CA`;
+  use "exterior house painting" as a heading or opening phrase.
+  Sections (not standalone pages): stucco repair (strengthened, best
+  bare volume of the adjacent candidates), wood rot repair, pressure
+  washing (adjacent trade, exterior prep only, no standalone page).
 - **Deck & Fence Staining** page. Primary: `deck and fence staining
   Burbank CA`.
 - Excluded: roofing/roof coatings (blacklisted niche), commercial/HOA/
