@@ -696,3 +696,15 @@ img.inline-photo { max-width: 560px; }
   .crack-table, .surface-table { min-width: 0; font-size: .9rem; }
   .crack-table th, .crack-table td, .surface-table th, .surface-table td { padding-right: .7rem; }
 }
+
+.stat-row-3 { grid-template-columns: repeat(3, 1fr); }
+.stain-table { min-width: 680px; }
+.wood-table { min-width: 640px; }
+.replace-table { min-width: 640px; }
+@media (max-width: 860px) {
+  .stat-row-3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 700px) {
+  .stain-table, .wood-table, .replace-table { min-width: 0; font-size: .9rem; }
+  .stain-table th, .stain-table td, .wood-table th, .wood-table td, .replace-table th, .replace-table td { padding-right: .7rem; }
+}
