@@ -708,3 +708,6 @@ img.inline-photo { max-width: 560px; }
   .stain-table, .wood-table, .replace-table { min-width: 0; font-size: .9rem; }
   .stain-table th, .stain-table td, .wood-table th, .wood-table td, .replace-table th, .replace-table td { padding-right: .7rem; }
 }
+
+.footer-map { margin: 2rem 0 1.4rem; }
+.footer-map iframe { display: block; width: 100%; height: 220px; border: 0; }

@@ -28,6 +28,11 @@ They are the source of truth:
   any page.
 - `shared-rules/google-trends-rules.md`, service-list + keyword
   validation.
+- `shared-rules/design-variation.md`, per-site design choices so this
+  site does not look like the others or like an AI template. Follow it
+  when touching CSS or layout. Per that file, do NOT write a design
+  brief, palette notes, or any record of the design choices in this
+  CLAUDE.md or anywhere else.
 - `shared-rules/niche-city-criteria.md`, niche/city selection
   criteria.
 - `shared-rules/new-site-setup.md`, repo/symlink/CLAUDE.md setup
@@ -124,5 +129,10 @@ Reference"):
   not Formspree. Site is registered in that Worker's `src/config.ts`
   with siteName, notifyEmail, and fromAddress. See
   shared-rules/form-backend-setup.md.
-- Photography: complete. Real photos generated, resized, optimized, and
-  wired in across all pages (see image-prompts.md, status: complete)
+- Photography: complete for the homepage, Interior, Exterior, and Deck &
+  Fence pages. The Cabinet Painting page still uses stand-in photos from
+  the Interior page (hero, body photo, homepage card thumbnail). Generate
+  the real cabinet photos from the prompts at the bottom of
+  image-prompts.md, convert to WebP, and swap the src and alt text.
+- Footer map: keyless Google Maps embed pointed at Burbank, CA on every
+  page. Replace with the GMB listing's embed once the listing exists.
