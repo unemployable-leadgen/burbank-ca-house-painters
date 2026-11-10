@@ -133,10 +133,7 @@ Reference"):
   not Formspree. Site is registered in that Worker's `src/config.ts`
   with siteName, notifyEmail, and fromAddress. See
   shared-rules/form-backend-setup.md.
-- Photography: complete for the homepage, Interior, Exterior, and Deck &
-  Fence pages. The Cabinet Painting page still uses stand-in photos from
-  the Interior page (hero, body photo, homepage card thumbnail). Generate
-  the real cabinet photos from the prompts at the bottom of
-  image-prompts.md, convert to WebP, and swap the src and alt text.
+- Photography: complete. Real photos generated, resized, optimized, and
+  wired in across all pages (see image-prompts.md, status: complete)
 - Footer map: keyless Google Maps embed pointed at Burbank, CA on every
   page. Replace with the GMB listing's embed once the listing exists.

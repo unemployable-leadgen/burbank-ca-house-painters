@@ -138,25 +138,23 @@ clear enough to need a model release.
 
 ---
 
-## Cabinet Painting page (`services/cabinet-painting.html`), PENDING real photos
+## Cabinet Painting page (`services/cabinet-painting.html`), complete
 
-The page currently uses stand-in images from the Interior page. Generate
-these two photos, convert to WebP, and swap the `src` (and alt text) in
-`services/cabinet-painting.html` and the card thumbnail in `index.html`.
-Same style guardrails as above (realistic photo, natural daylight, SoCal
-residential, no text/logos, no clear faces).
+Generated 2026-11-10 (source screenshots in `originals/`), cropped and
+converted to WebP. Same style guardrails as above.
 
-- `images/cabinet-painting-burbank-ca-hero.webp` (1600x900, 16:9), hero.
+- `images/cabinet-painting-burbank-ca-hero.webp` (1392x783, 16:9), hero.
   Prompt: "Wide photo of a bright mid-century kitchen in a Southern
   California home with freshly painted off-white shaker cabinets, a few
   cabinet doors removed and leaning on a drop cloth, natural window
-  daylight, no people, no readable text." Alt: "Freshly painted
-  kitchen cabinets in a Burbank CA home"
+  daylight, no people, no readable text." Alt text: "Kitchen with cabinet
+  doors removed and a drop cloth down, cabinet painting in Burbank CA"
 - `images/cabinet-painting-burbank-ca-detail.webp` (600x800, 3:4), body
-  photo. Prompt: "Close-up of a painter's hand in a glove using a fine
-  brush to finish the recessed panel of a white cabinet door laid on
-  sawhorses, soft daylight, shallow depth of field, no face." Alt:
+  photo. Prompt: "Close-up of a painter's gloved hand using a fine brush
+  to finish the recessed panel of a white cabinet door laid on
+  sawhorses, soft daylight, shallow depth of field, no face." Alt text:
   "Painter brushing a cabinet door during cabinet painting in Burbank CA"
 - `images/cabinet-painting-burbank-ca-thumbnail.webp` (800x600, 4:3),
-  homepage card (currently a crop of the interior trim-detail photo).
-  Can be a crop of the hero.
+  homepage card, cropped from the hero source. Alt text: "Kitchen cabinets
+  with doors removed for painting, cabinet painting in Burbank CA"
+- `images/cabinet-painting-burbank-ca-og.jpg` (1200x630), social image.
