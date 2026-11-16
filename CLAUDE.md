@@ -120,8 +120,10 @@ Reference"):
 - End every page with a clear call to action.
 
 ## Placeholders (flag to user until real values are supplied)
-- Phone: (857) 371-3693, still a placeholder, matches other rented sites
-  for now
+- Phone: (747) 225-8562 (updated Nov 2026 from the old placeholder).
+  It appears in every page's header, hero, CTA, footer, meta
+  descriptions, `tel:` links, JSON-LD `telephone`, and `js/main.js`
+  (form error message), so update all of those together.
 - Domain: burbankhousepainters.com, confirmed real. Purchased and
   connected to Cloudflare Workers (custom domain attached to the
   burbank-ca-house-painters Worker, production environment). Canonical
